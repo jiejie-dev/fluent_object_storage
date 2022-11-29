@@ -1,40 +1,6 @@
-<!-- 
-This README describes the package. If you publish this package to pub.dev,
-this README's contents appear on the landing page for your package.
 
-For information about how to write a good package README, see the guide for
-[writing package pages](https://dart.dev/guides/libraries/writing-package-pages). 
+# flutent_object_storage
 
-For general information about developing packages, see the Dart guide for
-[creating packages](https://dart.dev/guides/libraries/create-library-packages)
-and the Flutter guide for
-[developing packages and plugins](https://flutter.dev/developing-packages). 
--->
+[![Pub Version (including pre-releases)](https://img.shields.io/pub/v/flutent_object_storage?include_prereleases)](https://pub.flutter-io.cn/packages/flutent_object_storage) [![GitHub license](https://img.shields.io/github/license/jiejie-dev/flutter_flutent_object_storage)](https://github.com/jiejie-dev/flutter_flutent_object_storage/blob/master/LICENSE) [![GitHub stars](https://img.shields.io/github/stars/jiejie-dev/flutter_flutent_object_storage?style=social)](https://github.com/jiejie-dev/flutter_flutent_object_storage/stargazers)
 
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
-
-## Features
-
-TODO: List what your package can do. Maybe include images, gifs, or videos.
-
-## Getting started
-
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
-
-## Usage
-
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder. 
-
-```dart
-const like = 'sample';
-```
-
-## Additional information
-
-TODO: Tell users more about the package: where to find more information, how to 
-contribute to the package, how to file issues, what response they can expect 
-from the package authors, and more.
-# fluent_object_storage
+A base package for simple object storage sdk.
