@@ -36,5 +36,4 @@ class ObjectStoragePutObjectResult {
 //      eTag: json["eTag"],
 //      isSuccess: json['isSuccess']);
 //  }
-
 }
