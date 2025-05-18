@@ -16,6 +16,8 @@ class ObjectStoragePutObjectRequest {
   final int divisionForUpload;
   // 设置分块上传时的分块大小，单位为字节，默认值为1MB
   final int sliceSizeForUpload;
+  // 设置是否启用加速域名
+  final bool accelerate;
 
   ObjectStoragePutObjectRequest({
     required this.taskId,
@@ -29,6 +31,7 @@ class ObjectStoragePutObjectRequest {
     required this.region,
     this.divisionForUpload = 2 * 1024 * 1024,
     this.sliceSizeForUpload = 1024 * 1024,
+    this.accelerate = false,
   });
 
   Map<String, dynamic> toMap() {

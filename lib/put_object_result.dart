@@ -20,6 +20,13 @@ class ObjectStoragePutObjectResult {
 
   bool get isError => errorMessage != null;
 
+  double get progress =>
+      currentSize != null && totalSize != null && totalSize != 0
+          ? currentSize! / totalSize!
+          : 0;
+
+  double get progressPercent => progress * 100;
+
   @override
   String toString() {
     return 'PutObjectResult{url: $url, taskId: $taskId, currentSize: $currentSize, totalSize: $totalSize, errorMessage: $errorMessage, isFinished: $isFinished}';
