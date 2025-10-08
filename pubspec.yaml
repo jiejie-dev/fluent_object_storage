@@ -1,10 +1,11 @@
 name: fluent_object_storage
+resolution: workspace
 description: A base package for simple object storage sdk.
 version: 0.3.1
 homepage: https://github.com/jiejie-dev/fluent_object_storage
 
 environment:
-  sdk: ">=2.16.2 <4.0.0"
+  sdk: ">=3.9.2 <4.0.0"
 
 dependencies:
   platform_file: ^0.1.0
