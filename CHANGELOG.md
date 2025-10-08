@@ -1,3 +1,8 @@
+## 0.3.2
+
+ - **REFACTOR**: 调整回调接口参数.
+ - **FEAT**: 在put_object_request中添加加速域名参数，并在put_object_result中增加进度计算方法.
+
 
 ## v0.3.1
 2024-01-15
