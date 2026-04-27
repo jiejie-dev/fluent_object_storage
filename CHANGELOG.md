@@ -1,3 +1,7 @@
+## 0.3.2+2
+
+ - **DOCS**(fluent_object_storage): 补齐文档目录分层.
+
 ## 0.3.2+1
 
  - Update a dependency to the latest release.
