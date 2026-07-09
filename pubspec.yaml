@@ -5,8 +5,7 @@ version: 0.3.2+2
 homepage: https://github.com/jiejie-dev/fluent_object_storage
 
 environment:
-  sdk: ^3.8.1
-
+  sdk: ^3.11.0
 dependencies:
   platform_file: ^0.1.1+2
 
